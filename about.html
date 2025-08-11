@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.natnaelhunegnaw.com/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <title>Homepage</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Calibri, sans-serif;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #222;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      position: relative;
+    }
+
+    p.welcome {
+      font-size: 3em;
+      font-weight: bold;
+      color: #fff;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    img.profile-left {
+      display: block;
+      margin: 20px auto 0 auto;
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    details {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+      padding: 20px;
+      font-size: 1.2em;
+      color: #4f4f4f;
+      max-width: 500px;
+      margin: 40px auto;
+    }
+
+    summary {
+      color: #2a4d69;
+      font-size: 2em;
+      font-weight: bold;
+      cursor: pointer;
+      margin-bottom: 12px;
+    }
+
+    a.portfolio-button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #2a4d69;
+      color: #fff;
+      font-size: 1.2em;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+    }
+
+    a.portfolio-button:hover {
+      background-color: #1e3550;
+    }
+
+    footer {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      max-width: 600px;
+      margin: 60px auto;
+      font-size: 1em;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    footer a {
+      color: #2a4d69;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <p class="welcome">Welcome to my homepage!</p>
+
+  <img src="Self portrait.jpg" alt="Self portrait" class="profile-left" />
+
+  <div>
+    <details open>
+      <summary>About Me</summary>
+      <p>
+        Hello! My name is Natnael Hunegnaw. I am a computer enthusiast primarily working in graphics design for 2D and 3D models.
+        I'm also an affectionate videographer capable of producing efficient videos that reflect my interests.
+        Currently, I'm a university student seeking remote job opportunities online.
+      </p>
+    </details>
+  </div>
+
+  <div>
+    <a href="portfolio.html" target="_blank" class="portfolio-button">See My Content Here</a>
+  </div>
+
+  <footer>
+    <p><strong>&copy; 2025 Natnael Hunegnaw. All rights reserved.</strong></p>
+    <p>All media, designs, and content on this site are protected under copyright law. Unauthorized use, reproduction, or distribution is prohibited.</p>
+    <p>For licensing or collaboration inquiries, please contact me via
+      <a href="mailto:natnaelhunegnaw10@gmail.com">natnaelhunegnaw10@gmail.com</a>
+    </p>
+  </footer>
+</body>
+</html>
